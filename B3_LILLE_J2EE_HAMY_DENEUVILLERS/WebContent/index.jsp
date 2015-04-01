@@ -8,5 +8,6 @@
 	</head>
 	<body>
 	   <c:redirect url="init"></c:redirect>
+	  
 	</body>
 </html>

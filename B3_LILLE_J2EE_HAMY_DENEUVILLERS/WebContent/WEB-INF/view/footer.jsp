@@ -3,16 +3,16 @@
   <div class="container">
     <div class="row"> 
       
-      <!-- Footer Info -->
+      <!-- Footer Info 
       <div class="span3">
         <h5><i class="icon-globe"></i>Magic Pet Shop</h5>
         <img src="products/store.jpg" alt="Store" /> </div>
       <div class="span3">
         <h5><i class="icon-globe"></i>A propos</h5>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <strong>nonummy nibh</strong> euismod tincidunt ut laoreet. Ut wisi enim ad minim veniam, quis nostrud exerci tation <a href="#">ullamcorper suscipit</a> lobortis.</p>
-      </div>
+      </div>-->
       
-      <!-- Footer Contact -->
+      <!-- Footer Contact 
       <div class="span3">
         <h5><i class="icon-asterisk"></i>Contactez nous</h5>
         <ul class="footer-contact">
@@ -21,19 +21,19 @@
           <li><i class="icon-mobile-phone"></i>123123123</li>
           <li><i class="icon-envelope-alt"></i><a href="#">your@email.com</a></li>
         </ul>
-      </div>
+      </div>-->
       
-      <!-- Footer Social -->
+      <!-- Footer Social 
       <div class="span3">
         <h5><i class="icon-rss"></i>Restez en contact</h5>
         <div class="footer-social"> <a href="#" class="icon-facebook"></a> <a href="#" class="icon-twitter"></a> <a href="#" class="icon-google-plus"></a> <a href="#" class="icon-pinterest"></a> <a href="#" class="icon-linkedin"></a></div>
       </div>
     </div>
   </div>
-</div>
+</div>-->
 <hr style="height: 10px; background-color:#CC9CE2; margin:0; border:none;">
 
-<!-- Footer Links -->
+<!-- Footer Links 
 <div class="footer-links">
   <div class="container">
     <div class="row">
@@ -76,7 +76,7 @@
     </div>
   </div>
   <hr class="bordered" />
-</div>
+</div>-->
 
 <!-- Copy -->
 <div class="copy">

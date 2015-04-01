@@ -77,4 +77,11 @@ $(document).ready(function () {
     $("#changeColor").attr({href : this.rel});
   });
 
+  /* --- CAROUSSEL --- */
+  
+  $('.carousel').carousel()
+  
+  $('.carousel').carousel({
+	  interval: 2000
+	})
 });

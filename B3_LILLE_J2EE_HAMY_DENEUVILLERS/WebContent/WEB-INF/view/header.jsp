@@ -33,10 +33,6 @@
       <!-- Secondary Menu -->
       <ul class="nav nav-pills span6">
         <li class="active"><a href="<c:url value="/init" />">Accueil</a></li>
-        <li><a href="">Mon compte</a></li>
-        <li><a href="<c:url value="/myCart">
-        				<c:param name="transaction" value="print"/>
-        			</c:url>">Panier</a></li>
       </ul>
       
       <!-- Header Cart -->
@@ -95,6 +91,7 @@
       <p class="log-reg">
       	<c:choose>
 			<c:when test="${ customer != null }">
+				<a href="">Mon compte</a>
 				<a href="<c:url value="/logout" />">Se déconnecter ( ${customer.firstname} ) &nbsp;</a>
 			</c:when>
 			<c:otherwise>
@@ -104,7 +101,8 @@
 				<c:if test="${ infoMessage != null }">
 				    <c:out value="${infoMessage}"/>
 				</c:if>
-					<a href="<c:url value="/login" />">Se connecter / S'enregistrer &nbsp;</a>
+					<a href="<c:url value="/login" />">Se connecter / S'enregistrer &nbsp;</a>  
+					<!--<a onclick="connexion();">Se connecter / S'enregistrer &nbsp;</a>-->
 			</c:otherwise>
 		</c:choose>
       </p>
@@ -112,8 +110,42 @@
     </div>
   </div>
 </div>
+
 <!-- Logo --> 
-<a href="#" id="logo"><img src="./img/logo.png" alt="logo" /></a> 
+<!--  <a href="#" id="logo"><img src="./img/logo.png" alt="logo" /></a> -->
+
+<!--  METTRE CAROUSEL -->
+
+<div id="myCarousel" class="carousel slide">
+	<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+	</ol>
+	
+	<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./img/logo.png" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="./img/logo.png" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="./img/logo.png" alt="Flower">
+    </div>
+
+    <div class="item">
+      <img src="./img/logo.png" alt="Flower">
+    </div>
+  </div>
+	
+	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	<a class="carousel-control left" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
 
 <!-- Main Navbar -->
 <hr class="bordered" />
