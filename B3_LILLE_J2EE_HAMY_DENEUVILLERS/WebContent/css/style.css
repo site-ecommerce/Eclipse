@@ -262,6 +262,7 @@ body {
 	z-index: 9999;
 }
 .header .cart .cart-content .mini-cart-info h3 {
+	color: black;
 	margin-bottom: 20px;
 }
 .header .cart .cart-content .mini-cart-info p {
