@@ -10,7 +10,7 @@
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/style.css" rel="stylesheet" type="text/css" />
-		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/color/multicolor.css" rel="stylesheet" type="text/css" id="changeColor" />
+		<!--<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/color/multicolor.css" rel="stylesheet" type="text/css" id="changeColor" />-->
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/flexslider.css" rel="stylesheet" type="text/css" />
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/fancybox.css" rel="stylesheet" type="text/css" />
 		<link href="/B3_LILLE_J2EE_HAMY_DENEUVILLERS/css/masonry.css" rel="stylesheet" type="text/css" />

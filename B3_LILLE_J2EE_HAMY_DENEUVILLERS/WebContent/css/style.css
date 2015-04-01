@@ -39,7 +39,7 @@ h6 {
 	line-height: 15px;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-	color: #A6D777;
+	color: orange;
 }
 a, a:hover {
 	text-decoration: none;
@@ -55,15 +55,18 @@ a, a:hover {
 .margin-top {
 	margin-top: 40px;
 }
+
 /* General */
 html {
 	overflow-x: hidden;
 }
+
 body {
-	background: #E3AEFC;
+	background: #C0C0C0;
 	font: normal 12px/20px Arial, Helvetica, sans-serif;
 	color: #666;
 }
+
 /* Breadcrumb */
 .breadcrumb {
 	margin-top: 40px;
@@ -72,12 +75,15 @@ body {
 	background: none;
 	border-radius: 0;
 }
+
 .breadcrumb li {
 	text-shadow: none;
 }
+
 .breadcrumb li .divider {
 	color: #E5E5E5;
 }
+
 .breadcrumb li a {
 	color: #333;
 }
@@ -121,9 +127,11 @@ body {
 #logo img {
 	display: inline-block;
 }
+
 /* Header */
 .header {
-	background: #ECE1F1;
+	color:white;
+	background: #778899;
 	line-height: 40px;
 }
 .header .nav {
@@ -135,7 +143,7 @@ body {
 	padding: 0 10px;
 	border-radius: 0;
 	line-height: 40px;
-	color: #999;
+	color: white;
 	display: block;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
@@ -169,7 +177,7 @@ body {
 }
 .header .log-reg a {
 	margin-left: 20px;
-	color: #999;
+	color: white;
 	display: block;
 	float: left;
 }
@@ -183,18 +191,29 @@ body {
 	position: relative;
 	float: right;
 }
-.header .cart:hover {
-	background: #FFF;
+
+.navbar-inner .nav li.active a, .navbar-inner .nav li.active a:hover{
+	background:orange!important;
 }
+
+/*Bouton panier selectionne*/
+.header .cart:hover {
+	background: #D3D3D3;
+}
+
+/*Bouton panier*/
 .header .cart p {
 	margin: 0;
 	font-weight: bold;
 	float: right;
+	color: #F0F0F0;
 }
+
 .header .cart p span {
 	font-weight: normal;
 	color: #999;
 }
+
 .header .cart i {
 	margin-left: 15px;
 	width: 40px;
@@ -206,6 +225,7 @@ body {
 	text-align: center;
 	float: right;
 }
+
 .header .cart.on i {
 	background: #A6D777;
 	color: #FFF;
@@ -331,11 +351,13 @@ body {
 .header .cart .cart-content .mini-cart-total .total span {
 	color: #333;
 }
+
+/*Panier / Voir le panier*/
 .header .cart .cart-content .checkout .btn {
 	padding: 0;
 	width: 50%;
 	height: 40px;
-	background: #A6D777;
+	background: orange;
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
@@ -350,8 +372,10 @@ body {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
+
+/*Panier / PAYER */
 .header .cart .cart-content .checkout .btn-checkout {
-	background: #333;
+	background: orange;
 }
 .header .cart .cart-content .checkout .btn:hover {
 	background: #0CC;
@@ -361,14 +385,17 @@ body {
 	border-top: 1px dashed #E5E5E5;
 	border-bottom: 1px dashed #FFF;
 }
-/* Navbar */
+
+/* Barre de navigation */
 .navbar-cont {
 	margin: 18px 0;
-	background: #DB55FB;
+	background: #778899;
 }
+
 .navbar {
 	margin-bottom: 0;
 }
+
 .navbar-inner {
 	padding: 0;
 	background: none;
@@ -444,19 +471,23 @@ body {
 	-webkit-transition: padding linear 0.25s;
 	-o-transition: padding linear 0.25s;
 }
+
 .navbar-inner .nav li a:hover {
 	color: #FFF;
 }
+
 .navbar-inner .nav li.active a, .navbar-inner .nav li.active a:hover {
 	background: #A6D777;
 	border-radius: 0;
 	box-shadow: none;
 	color: #FFF;
 }
+
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {
 	color: #FFF;
 	background-color: inherit;
 }
+
 .navbar-inner .nav li i {
 	margin-right: -20px;
 	width: 40px;
@@ -477,6 +508,7 @@ body {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
+
 .navbar-inner .nav li:hover i {
 	transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
@@ -550,27 +582,31 @@ body {
 	margin: 0;
 	float: right;
 }
+
+/*Barre de navigation*/
 .header-search input[type=text] {
 	margin: 0;
 	padding: 5px 10px;
 	height: 30px;
-	background: #EA8FFA;
+	background: #DCDCDC;
 	border: none;
 	border-radius: 0;
 	box-shadow: none;
 	font: normal 14px/30px Roboto Condensed, Arial, Helvetica, sans-serif;
-	color: #FDFDFD;
+	color: black;
 	text-transform: uppercase;
 	float: left
 }
+
+/*Search barre de navigation*/
 .header-search button {
 	padding: 0;
 	width: 40px;
 	height: 40px;
-	background: #D64252;
+	background: #D3D3D3;
 	border: none;
 	border-left: none;
-	color: #CCC;
+	color: black;
 	float: left;
 	transition: all linear 0.25s;
 	-ms-transition: all linear 0.25s;
@@ -578,9 +614,12 @@ body {
 	-webkit-transition: all linear 0.25s;
 	-o-transition: all linear 0.25s;
 }
+
+/*Selection du "go"*/
 .header-search button:hover {
-	color: #FFF;
+	color: orange;
 }
+
 .date {
 	margin: 10px 0;
 	padding: 10px;
@@ -1170,7 +1209,7 @@ address a:hover {
 	padding: 0;
 	width: 110px;
 	height: 110px;
-	background: #0CC;
+	background: #800000;
 	border: 5px solid #FFF;
 	border-radius: 100%;
 	box-shadow: none;
@@ -1180,7 +1219,8 @@ address a:hover {
 	text-transform: uppercase;
 	display: block;
 	position: absolute;
-	line-height : 25px;
+	line-height : 65px;
+	text-align:center;
 	top: -110px;
 	left: 50%;
 	transition: all linear 0.1s;
@@ -1196,7 +1236,7 @@ address a:hover {
 	margin-top:150px;	
 }
 .products-list li:hover .thumbnail .buyLink {
-	background: #A6D777;
+	background: grey;
 }
 .products-list-small li .thumbnail .buyLink  {
 	margin: 0 auto;
