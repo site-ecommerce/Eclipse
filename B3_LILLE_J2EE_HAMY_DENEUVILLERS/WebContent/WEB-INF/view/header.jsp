@@ -66,25 +66,27 @@
 			</c:forEach>
 			</ul>
           </div>
+          
            <div class="mini-cart-total">
            
                    <c:if test="${total != null }">
-                   	 <p class="total">Total <span>&euro; <c:out value="${total}"></c:out>Euros</span></p>
+                   	 <p class="total">Total 
+                   	 <span>&euro;
+                   	 	 <c:out value="${total}"></c:out>Euros
+                   	 	 <div class="checkout"><a href="<c:url value="/myCart">
+			 				 	<c:param name="transaction" value="print"/>
+								</c:url>" class="btn">Voir le panier</a> 
+								<a href="<c:url value="/order">
+			  					</c:url>" class="btn btn-checkout">Payer</a><
+			 			 </div>
+                   	 </span>
+                   	</p>
                    </c:if>
                    
                     <c:if test="${total == null }">
                    	 <p class="total"><c:out value="Vous n'avez pas d'articles :'("></c:out></p>
                    </c:if>
-           		 
-          </div>
-          
-	          <div class="checkout"><a href="<c:url value="/myCart">
-			  	<c:param name="transaction" value="print"/>
-				</c:url>" class="btn">
-					Voir le panier</a> 
-					<a href="<c:url value="/order">
-			  	</c:url>" class="btn btn-checkout">Payer</a><
-			  </div>
+           	</div>
         </div>
       </div>
       
